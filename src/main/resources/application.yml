@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: http://127.0.0.1:9200
+  data:
+    elasticsearch:
+      repositories:
+        enabled: true
+      client:
+        reactive:
+          endpoints: 127.0.0.1:9200
